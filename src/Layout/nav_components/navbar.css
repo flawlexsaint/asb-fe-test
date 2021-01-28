@@ -138,7 +138,6 @@ a.active .nav_svgs {
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 992px) and (max-width: 1200px) {
-  .logo_title,
   .tab_hide {
     display: none !important;
   }
@@ -146,7 +145,6 @@ a.active .nav_svgs {
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-  .logo_title,
   .tab_hide {
     display: none !important;
   }
