@@ -1,0 +1,180 @@
+.table_shadow {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(192, 192, 192, 0.25);
+  border-radius: 6px;
+}
+
+.table_grid {
+  background: #f3f6f9;
+  height: 45px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 0.2fr 0.2fr 1fr 1fr 0.8fr 1fr 1fr 0.2fr;
+}
+
+.table_grid_data {
+  background: #ffffff;
+  box-shadow: inset 0px -1px 0px rgba(183, 183, 183, 0.25);
+  height: 60px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 0.2fr 0.2fr 1fr 1fr 0.8fr 1fr 1fr 0.2fr;
+}
+
+.table_header_title {
+  font-family: Google Sans Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #25213b;
+}
+
+.table_header_text {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #878592;
+}
+
+.table_text {
+  font-family: Google Sans Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #25213b;
+}
+
+.table_title {
+  font-family: Google Sans Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #899198;
+}
+
+.status_no_issue {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #8c70ff;
+  text-align: center;
+}
+
+.table_status {
+  background: #f6f3ff;
+  border-radius: 11px;
+  height: 22px;
+  width: 89px;
+}
+
+.entries_title {
+  font-family: Google Sans Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #25213b;
+}
+
+.entries_text {
+  font-family: Google Sans Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #878592;
+}
+
+.risk_text {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #3ab65c;
+}
+
+.issues_found {
+  background: #fff6de;
+  border-radius: 11px;
+  width: 120px;
+  height: 22px;
+}
+
+.issues_found_text {
+  font-family: Google Sans Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #f4b400;
+}
+
+.mid_risk {
+  font-family: Google Sans Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #3c3ab6;
+}
+
+.high_risk {
+  font-family: Google Sans Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #b63a3a;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .table_grid {
+    grid-template-columns: 0.2fr 0.2fr 1fr 1fr 1fr 1fr.8fr 0.2fr;
+  }
+
+  .table_grid_data {
+    grid-template-columns: 0.2fr 0.2fr 1fr 1fr 1fr 1fr 0.8fr 0.2fr;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 576.98px) and (max-width: 767.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .table_grid {
+    grid-template-columns: 0.2fr 0.2fr 1fr 1fr 1fr 1fr.8fr 0.2fr;
+  }
+
+  .table_grid_data {
+    grid-template-columns: 0.2fr 0.2fr 1fr 1fr 1fr 1fr 0.8fr 0.2fr;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .table_grid {
+    grid-template-columns: 0.2fr 0.2fr 1fr 1fr 1fr 1fr.8fr 0.2fr;
+  }
+
+  .table_grid_data {
+    grid-template-columns: 0.2fr 0.2fr 1fr 1fr 1fr 1fr 0.8fr 0.2fr;
+  }
+}

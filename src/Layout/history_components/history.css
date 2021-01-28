@@ -1,0 +1,61 @@
+.history_area {
+  border-left: 2px dotted #c4c4c4;
+}
+
+.history_header_title {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.history_title {
+  font-family: Google Sans Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 140%;
+  color: #747474;
+}
+
+.history_text {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 140%;
+  color: #a1aace;
+}
+
+.border_svg {
+  position: absolute;
+  margin-left: -6px;
+  margin-top: 5px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .history{
+    padding: 1.5rem 1rem !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 576.98px) and (max-width: 767.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

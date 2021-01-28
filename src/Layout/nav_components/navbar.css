@@ -1,0 +1,153 @@
+.nav-item {
+  list-style-type: none;
+}
+
+a.active {
+  background: #deefff !important;
+  border-radius: 0 !important;
+  border-bottom: 3px solid #006fd6 !important;
+  font-family: Google Sans Medium;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 14px;
+  line-height: 22px;
+  color: #006fd6 !important;
+}
+
+.logo_title {
+  font-family: Google Sans Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.nav-link,
+.dropdown-item {
+  font-family: Google Sans Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #778699;
+}
+
+.nav_svgs {
+  fill: #72809d;
+}
+
+a.active .nav_svgs {
+  fill: #006fd6;
+}
+
+.search_area {
+  background: #ffffff;
+  border: 1px solid #dce1e7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 36px;
+}
+
+.search_input {
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+.notification {
+  background: transparent;
+  width: 36px;
+  height: 36px;
+  border: none;
+  outline: none;
+}
+
+.profile {
+  background: #d8d8d8;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .mobile_hide,
+  .nav_text {
+    display: none !important;
+  }
+
+  .clear_margin {
+    margin: 0 !important;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .profile {
+    margin-left: 5px !important;
+  }
+
+  .search_input {
+    width: 70px;
+  }
+
+  .dropdown-menu {
+    width: 190px !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 576.98px) and (max-width: 767.98px) {
+  .mobile_hide {
+    display: none !important;
+  }
+
+  .clear_margin {
+    margin: 0 !important;
+  }
+
+  .search_input {
+    width: 70px;
+  }
+
+  .dropdown-menu {
+    width: 190px !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .logo_title,
+  .tab_hide {
+    display: none !important;
+  }
+
+  .clear_margin {
+    margin: 0 !important;
+  }
+
+  .search_input {
+    width: 150px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .logo_title,
+  .tab_hide {
+    display: none !important;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .logo_title,
+  .tab_hide {
+    display: none !important;
+  }
+}

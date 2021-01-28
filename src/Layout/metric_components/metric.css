@@ -1,0 +1,96 @@
+.grid_area {
+  display: grid;
+  grid-gap: 1.86%;
+  grid-template-columns: repeat(5, 18.5%);
+}
+
+.metric_header_title {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #778699;
+}
+
+a {
+  text-decoration: none;
+}
+
+.metric_grid {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(192, 192, 192, 0.25);
+  border-radius: 6px;
+  height: 129px;
+}
+
+.metric_grid_title {
+  font-family: Google Sans Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.44px;
+  color: #19191d;
+}
+
+.metric_grid_text {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 36px;
+  color: #9696a0;
+}
+
+.metric_svg {
+  width: 23px;
+  height: 23px;
+  fill: #ffffff;
+  background: #b4b4bb;
+  border-radius: 50%;
+  border: 2px solid #b4b4bb;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .grid_area {
+    display: grid;
+    grid-gap: 0;
+    grid-row-gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 576.98px) and (max-width: 767.98px) {
+  .grid_area {
+    display: grid;
+    grid-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .grid_area {
+    display: grid;
+    grid-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .grid_area {
+    display: grid;
+    grid-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
