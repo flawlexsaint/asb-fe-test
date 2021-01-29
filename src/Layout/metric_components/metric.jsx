@@ -30,7 +30,7 @@ const Metric = () => {
             <div className="d-flex align-items-start justify-content-between">
               <div className="">
                 <h1 className="metric_grid_title">31454</h1>
-                <p className="metric_grid_text">Ongoing metric</p>
+                <p className="metric_grid_text mb-0">Ongoing metric</p>
               </div>
               <svg
                 class="metric_svg mt-2"

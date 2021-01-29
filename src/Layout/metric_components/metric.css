@@ -58,9 +58,13 @@ a {
 @media (max-width: 576px) {
   .grid_area {
     display: grid;
-    grid-gap: 0;
-    grid-row-gap: 1rem;
-    grid-template-columns: 1fr;
+    grid-gap: .6rem;
+    grid-row-gap: .6rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .metric_grid{
+    padding: .8rem !important;
   }
 }
 

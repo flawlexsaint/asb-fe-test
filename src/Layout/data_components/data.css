@@ -151,6 +151,11 @@
   .table_grid_data {
     grid-template-columns: 0.2fr 0.2fr 1fr 1fr 1fr 1fr 0.8fr 0.2fr;
   }
+
+  .custom_container{
+    width: 93%;
+    margin: 0 auto;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */

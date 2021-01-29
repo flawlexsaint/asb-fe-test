@@ -3,7 +3,7 @@ import "./data.css";
 
 const Data = () => {
   return (
-    <div className="">
+    <div className="custom_container">
       <div className="scroll table_shadow">
         <div className="table_grid ps-3 pe-3">
           <div class="form-check">
