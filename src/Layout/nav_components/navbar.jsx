@@ -160,7 +160,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="d-flex align-items-center justify-content-center mt-3">
-              <div className="search_area tab_hide">
+              <div className="search_area tab_hide xl-hide">
                 <svg
                   className="me-2 ms-2"
                   width="16"

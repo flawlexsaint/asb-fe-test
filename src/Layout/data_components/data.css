@@ -144,7 +144,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-    .table_grid {
+  .table_grid {
     grid-template-columns: 0.2fr 0.2fr 1fr 1fr 1fr 1fr.8fr 0.2fr;
   }
 
@@ -152,7 +152,7 @@
     grid-template-columns: 0.2fr 0.2fr 1fr 1fr 1fr 1fr 0.8fr 0.2fr;
   }
 
-  .custom_container{
+  .custom_container {
     width: 93%;
     margin: 0 auto;
   }
@@ -160,6 +160,24 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 576.98px) and (max-width: 767.98px) {
+  .table_grid {
+    grid-template-columns: 0.2fr 0.2fr 1fr 1fr 1fr 1fr.8fr 0.2fr;
+    width: 140%;
+  }
+
+  .table_grid_data {
+    grid-template-columns: 0.2fr 0.2fr 1fr 1fr 1fr 1fr 0.8fr 0.2fr;
+    width: 140%;
+  }
+
+  .custom_container {
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  .scroll{
+    overflow-x: scroll !important;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */

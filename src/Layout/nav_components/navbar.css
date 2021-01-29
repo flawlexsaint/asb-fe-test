@@ -137,14 +137,14 @@ a.active .nav_svgs {
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
   .tab_hide {
     display: none !important;
   }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .tab_hide {
     display: none !important;
   }
